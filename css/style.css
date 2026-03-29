@@ -609,18 +609,18 @@ footer p {
 }
 
 .seal-image-wrapper {
-    flex: 0 0 300px;   
-   display: flex;
+    flex: 0 0 200px; 
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .seal-image {
-    width: 100%;
-    height: auto;
-   max-width: 300px
+    max-width: 100%; 
+    height: auto; 
     display: block;
-    box-shadow: 0 4px 10px var(--shadow-soft);
-}
+    object-fit: contain; 
+    box-shadow: 0 4px 15px var(--shadow-soft);
 
 .seal-text-wrapper {
     flex: 1;        
@@ -638,14 +638,10 @@ footer p {
 }
 
 
-@media (max-width: 650px) {
-    .seal-flex-container {
-        flex-direction: column; 
-        text-align: center;
-       gap: 20px;
-    }
-    
+
+@media (min-width: 750px) {
     .seal-image-wrapper {
-        flex: 0 0 200px;       
+        flex: 0 0 180px; 
     }
+
 }
