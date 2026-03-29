@@ -583,11 +583,9 @@ footer p {
 
 .seal-section {
     max-width: 900px;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 10px;
     background-color: var(--bg-color);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
     font-family: georgia;
 }
 
@@ -613,7 +611,7 @@ footer p {
 
 .seal-image {
     width: 100%;
-    height: auto;
+    height: 200px;
     display: block;
     box-shadow: 0 4px 10px var(--shadow-soft);
 }
