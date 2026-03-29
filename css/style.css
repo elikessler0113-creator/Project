@@ -584,11 +584,11 @@ footer p {
 .seal-section {
     max-width: 900px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 10px;
     background-color: var(--bg-color);
     border: 1px solid var(--border-color);
     border-radius: 8px;
-    font-family: sans-serif;
+    font-family: georgia;
 }
 
 .seal-title {
@@ -641,6 +641,6 @@ footer p {
     }
     
     .seal-image-wrapper {
-        flex: 0 0 150px;       /* Smaller image for mobile */
+        flex: 0 0 150px;       
     }
 }
