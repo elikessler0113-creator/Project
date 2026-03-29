@@ -571,5 +571,44 @@ footer p {
 .fade-in {
     animation: fadeIn 0.6s ease-out;
 }
+.bilingual-seal {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
 
+.bilingual-seal h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.seal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.seal-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.seal-content p {
+    max-width: 600px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .seal-image {
+        width: 250px;
+    }
+    
+    .bilingual-seal h2 {
+        font-size: 2rem;
+    }
+}
 
