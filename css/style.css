@@ -578,6 +578,7 @@ footer p {
 }
 
 .bilingual-seal h2 {
+   text-alight: center;
     margin-bottom: 40px;
     font-size: 2.5rem;
 }
