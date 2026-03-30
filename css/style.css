@@ -597,10 +597,16 @@ footer p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.seal-content  {
-    max-width: 600px;
-    font-size: 1.1rem;
-    line-height: 1.6;
+.seal-content {
+  display: flex;
+  flex-direction: row;     /* Ensures items stay side-by-side */
+  justify-content: center; /* Centers items horizontally */
+  align-items: center;     /* Centers items vertically */
+  
+  width: 100vw;            /* Forces the width to 100% of the viewport */
+  height: 100vh;           /* Forces the height to 100% of the viewport */
+  margin: 0;               /* Removes any default browser spacing */
+  box-sizing: border-box;  /* Prevents padding from pushing the box over */
  
 }
 
